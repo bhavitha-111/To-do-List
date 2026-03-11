@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ValidationForm</title>
+</head>
+<h1>Student Registration Form</h1>
+<body>
+
+<form action="">
+
+<label>First Name</label>
+<input type="text" name="firstname" id="firstname" required>
+<br><br>
+
+<label>Last Name</label>
+<input type="text" name="lastname" id="lastname" required>
+<br><br>
+
+<label>Email</label>
+<input type="email" name="email" required>
+<br><br>
+
+<label>Phn no</label>
+<input type="number" name="phone" required>
+<br><br>
+
+<label>Age</label>
+<input type="number" name="age" id="age" min="19" required>
+<br><br>
+<label for="Gender">Gender</label><br>
+<input type="radio" name="Male">Male<br>
+<input type="radio" name="Female">Female<br><br>
+
+<label for="course">Course</label>
+<select name="course" id="course" required>
+<option value="">Select Course</option>
+<option value="AI">AI</option>
+<option value="ML">ML</option>
+<option value="HTML">HTML</option>
+<option value="DSA">DSA</option>
+</select>
+
+<br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>

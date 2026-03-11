@@ -17,13 +17,22 @@ font-family:Arial, sans-serif;
 
 /* Body Style */
 body{
-background:#f4f4;
-background-image: url(" Images/pic1.jpg");
-background-position: center;
+background:#f4f4f4;
+background-image:url("pic1.jpg");
+background-position:center;
 background-size:cover;
+background-repeat:no-repeat;
 display:flex;
 justify-content:center;
 padding:20px;
+}
+
+/* Container */
+.container{
+background:rgba(255,255,255,0.9);
+padding:20px;
+border-radius:10px;
+width:800px;
 }
 
 /* Title */
@@ -33,6 +42,7 @@ background:purple;
 color:white;
 padding:15px;
 margin-bottom:20px;
+border-radius:5px;
 }
 
 /* Menu Grid */
@@ -50,8 +60,7 @@ border-radius:8px;
 
 /* Section Heading */
 .section h3{
-
-color:viol;
+color:violet;
 padding:8px;
 margin-bottom:10px;
 text-align:center;
@@ -88,47 +97,47 @@ font-weight:bold;
 
 <div class="container">
 
-<h2 id="title">A PLACE FOR EVERY TASTE  &#129316&#128156</h2>
+<h2 id="title">A PLACE FOR EVERY TASTE &#129316; &#128156;</h2>
 
 <div class="menu">
 
 <!-- Starters -->
 <div class="section">
-<h3>STARTERS &#127831</h3>
+<h3>STARTERS &#127831;</h3>
 <ul>
 <li>Gobi Manchurian <span class="price">210/-</span></li>
-<li>panner 65 <span class="price">290/-</span></li>
+<li>Paneer 65 <span class="price">290/-</span></li>
 <li>Baby Corn Chilli <span class="price">270/-</span></li>
-<li>Mushroom Roast<span class="price">290/-</span></li>
-<li>Aloo Chilli<span class="price">250/-</span></li>
-<li>Chicken Manchurian<span class="price">340/-</span></li>
-<li>Egg Ginger Dry<span class="price">160/-</span></li>
-<li>Chicken Lollipop<span class="price">360/-</span></li>
-<li>Mutton Fry<span class="price">440/-</span></li>
-<li>Chicken Fry<span class="price">320/-</span></li>
+<li>Mushroom Roast <span class="price">290/-</span></li>
+<li>Aloo Chilli <span class="price">250/-</span></li>
+<li>Chicken Manchurian <span class="price">340/-</span></li>
+<li>Egg Ginger Dry <span class="price">160/-</span></li>
+<li>Chicken Lollipop <span class="price">360/-</span></li>
+<li>Mutton Fry <span class="price">440/-</span></li>
+<li>Chicken Fry <span class="price">320/-</span></li>
 </ul>
 </div>
 
 <!-- Main Course -->
 <div class="section">
-<h3> VEG MAIN COURSE &#127860</h3>
+<h3>VEG MAIN COURSE &#127860;</h3>
 <ul>
-<li>Kadai Panner<span class="price">300/-</span></li>
-<li> Paneer Butter Masala<span class="price">300/-</span></li>
+<li>Kadai Paneer <span class="price">300/-</span></li>
+<li>Paneer Butter Masala <span class="price">300/-</span></li>
 <li>Veg Kadai <span class="price">290/-</span></li>
-<li> Chicken Curry<span class="price">320/-</span></li>
+<li>Chicken Curry <span class="price">320/-</span></li>
 <li>Mutton Curry <span class="price">440/-</span></li>
-<li>Aloo Matar<span class="price">280/-</span></li>
-<li>Paneer Shahi Kurma<span class="price">280/-</span></li>
-<li>Gongura Mutton Curry<span class="price">460/-</span></li>
-<li>Egg Bhurji<span class="price">130/-</span></li>
-<li>Mixed Veg Curry<span class="price">290/-</span></li>
+<li>Aloo Matar <span class="price">280/-</span></li>
+<li>Paneer Shahi Kurma <span class="price">280/-</span></li>
+<li>Gongura Mutton Curry <span class="price">460/-</span></li>
+<li>Egg Bhurji <span class="price">130/-</span></li>
+<li>Mixed Veg Curry <span class="price">290/-</span></li>
 </ul>
 </div>
 
 <!-- Soup and Salad -->
 <div class="section">
-<h3>SOUP & SALAD &#127858</h3>
+<h3>SOUP & SALAD &#127858;</h3>
 <ul>
 <li>Tomato Soup <span class="price">90/-</span></li>
 <li>Veg Corn Soup <span class="price">120/-</span></li>
@@ -140,7 +149,7 @@ font-weight:bold;
 
 <!-- Beverages -->
 <div class="section">
-<h3>BEVERAGES &#129380</h3>
+<h3>BEVERAGES &#129380;</h3>
 <ul>
 <li>Iced Tea <span class="price">100/-</span></li>
 <li>Lemonade <span class="price">80/-</span></li>
@@ -149,31 +158,33 @@ font-weight:bold;
 <li>Milkshakes <span class="price">110/-</span></li>
 </ul>
 </div>
-<!----Desserts---->
+
+<!-- Desserts -->
 <div class="section">
-<h3>DESSERTS &#127856</h3>
-    <ul>
-        <li>Vanilla IceCream<span class="price">70/-</span></li>
-        <li>Strawberry IceCream<span class="price">75/-</span></li>
-        <li>Coconut IceCream<span class="price">60/-</span></li>
-        <li>Chocolate IceCream<span class="price">100/-</span></li>
-    </ul>
-</div>
-<!----Chaat---->
-<div class="section">
-<h3>CHAAT &#129375</h3>
+<h3>DESSERTS &#127856;</h3>
 <ul>
-        <li>Mix Fruit Chaat<span class="price">60/-</span></li>
-        <li>Chana Chaat<span class="price">50/-</span></li>
-        <li>Aloo Chaat<span class="price">50/-</span></li>
-        <li>Rajma Chaat<span class="price">50/-</span></li>
-        <li>Peanut Chaat<span class="price">40/-</span></li>
-        
-    </ul>
+<li>Vanilla IceCream <span class="price">70/-</span></li>
+<li>Strawberry IceCream <span class="price">75/-</span></li>
+<li>Coconut IceCream <span class="price">60/-</span></li>
+<li>Chocolate IceCream <span class="price">100/-</span></li>
+</ul>
+</div>
+
+<!-- Chaat -->
+<div class="section">
+<h3>CHAAT &#129375;</h3>
+<ul>
+<li>Mix Fruit Chaat <span class="price">60/-</span></li>
+<li>Chana Chaat <span class="price">50/-</span></li>
+<li>Aloo Chaat <span class="price">50/-</span></li>
+<li>Rajma Chaat <span class="price">50/-</span></li>
+<li>Peanut Chaat <span class="price">40/-</span></li>
+</ul>
+</div>
 
 </div>
 
 </div>
-</div>
+
 </body>
 </html>

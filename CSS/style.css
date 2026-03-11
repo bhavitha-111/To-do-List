@@ -1,0 +1,53 @@
+    /*Element selector*/
+    p {
+        color: aliceblue;
+        background-color: lavender;
+        border: 10px solid black;
+        height: 50%;
+        font-weight: 100;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+   li{
+        color:navy;
+        height: 50%;
+        font-weight: 200;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-style:italic;
+        display:inline;
+        word-spacing: 1cm;
+    }
+    /*class selector*/
+   /*.c1{
+    color:brown;
+        border: 10px solid purple;
+        height: 50%;
+        font-weight: 100;
+        font-family:'Times New Roman', Times, serif;
+   }*/
+   /*.c2{
+    color:cadetblue;
+        border: 10px solid greenyellow;
+        height: 50%;
+        font-weight: 100;
+        font-family:'Times New Roman', Times, serif;
+   }*/
+   /*id selector*/
+   #p1{
+    color: burlywood;
+    background-color:10px solid pink;
+    font-size:large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+   }
+   #p2{
+    color:greenyellow;
+    background-color:10px solid orange ;
+    font-size:large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+   }
+   /*universal selector*/
+   *{
+    background-color:blanchedalmond;
+   }
